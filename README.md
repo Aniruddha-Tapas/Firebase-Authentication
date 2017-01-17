@@ -89,9 +89,9 @@ Getting Started
     - Select **CustomAuthActivity** from the main screen.
     - Run the text copied from the **ADB Command** section of the web page in the steps above. This will update the Custom Token field of the running app.
     - Click **Sign In** to sign in to Firebase User Management with the generated JWT. You should
-      see the User ID you entered when generating the token.
-
-
+      see the User ID you entered when generating the token.
+      <hr>
+      
 Result
 -----------
 ![Firebase authentication demo on Android](demo.gif)
