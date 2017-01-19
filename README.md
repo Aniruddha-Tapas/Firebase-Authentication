@@ -70,27 +70,6 @@ Getting Started
 - Run the app on your device or emulator.
     - Select **EmailPasswordActivity** from the main screen.
     - Fill in your desired email and password and click **Create Account** to begin.
-
-
-### Custom Authentication Setup
-
-- Go to the [Google Developers Console](https://console.developers.google.com/project) and navigate to your project:
-    - Click on the **Service accounts** tab in the left.
-    - Click on the **Create Service Account** on the top.
-    - Enter desired service account name and click on the **Create** button.
-    - Once the serivce account is created, click on the **Options**.
-    - Choose **JSON** as the key type then click on the **Create** button.
-    - You should now have a new JSON file for your service account in your Downloads directory.
-- Open the file `web/auth.html` using your web browser.
-    - Click **Choose File** and upload the JSON file you just downloaded.
-    - Enter any User ID and click **Generate**.
-    - Copy the text from the **ADB Command** section. This will be required later on.
-- Run the Android application on your Android device or emulator.
-    - Select **CustomAuthActivity** from the main screen.
-    - Run the text copied from the **ADB Command** section of the web page in the steps above. This will update the Custom Token field of the running app.
-    - Click **Sign In** to sign in to Firebase User Management with the generated JWT. You should
-      see the User ID you entered when generating the token.
-      <hr>
       
 Result
 -----------
